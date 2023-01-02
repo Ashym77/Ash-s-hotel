@@ -1,0 +1,67 @@
+*{
+
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+
+background-color: #D9CDA9;
+}
+
+
+h1{
+
+
+    color: #A62F03;
+}
+
+
+
+footer{
+    color: #A62F03;
+   
+}
+
+
+nav{
+
+width: 100%;
+height: 100px;
+background-color: #BF9649;;
+
+}
+
+ul{
+
+    margin-left: 70px;
+
+}
+
+
+ul li{
+
+    list-style: none;
+    display: inline-block;
+    float: left;
+    line-height: 100px;
+
+}
+
+
+ul li a{
+display: block;
+    color: #A62F03;
+text-decoration: none;
+font-size: 14px;
+font-family: Arial;
+padding: 0 20px;
+    
+}
+
+ul li a:hover {
+
+    color:purple;
+        
+    }
