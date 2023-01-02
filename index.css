@@ -124,13 +124,6 @@ width: 100%;
 
 
 
-.mobile-nav,
-.mobile-menu-items  
-{
-
-    display: none;
-}
-
 
 
 
@@ -142,6 +135,7 @@ width: 100%;
 
 
     .hero-container .hero-left .hero-image1
+    
     {
         display: none;
     }
