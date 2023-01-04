@@ -8,5 +8,6 @@ const mobileMenuItems=document.querySelector
 menuButton.addEventListener("click",()=>{
 
     mobileMenuItems.classList.toggle("active")
-})
+}
+)
  

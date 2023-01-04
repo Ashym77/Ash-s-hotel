@@ -83,7 +83,7 @@ nav.main-nav ul li a{
 
 .hero-container h2.hero-heading{
 
-
+    font-family: 'Roboto' ,sans-serif;
     font-size: 24px;
     color:#000000;
     margin-bottom: 0;
@@ -91,7 +91,7 @@ nav.main-nav ul li a{
 }
 
 .hero-container p.hero-subheading{
-
+    font-family: 'Roboto' ,sans-serif;
     color:#000000;
     font-size: 20px;
     line-height: 1.6;
@@ -111,7 +111,7 @@ nav.main-nav ul li a{
 
 .back-to-top{
 
-
+    font-family: 'Roboto' ,sans-serif;
     color: #000000;
     text-decoration: none;
     display: flex;
@@ -148,6 +148,7 @@ width: 100%;
 
 
     .hero-container .hero-left .hero-image1,
+    .hero-container .hero-left .hero-image3,
     .mobile-nav,
     .mobile-menu-items
     
@@ -266,7 +267,7 @@ transform: translateY(0);
 
 .back-to-top{
 
-
+    font-family: 'Roboto' ,sans-serif;
     color: #000000;
     text-decoration: none;
     display: flex;

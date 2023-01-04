@@ -83,7 +83,7 @@ header .main-header{
 
  .room-container h2.room-heading{
 
- 
+    font-family: 'Roboto' ,sans-serif;
     font-size: 24px;
     color:#000000;
     margin-bottom: 0;
@@ -91,7 +91,7 @@ header .main-header{
 }
 
 .room-container p.room-subheading{
-
+    font-family: 'Roboto' ,sans-serif;
     color:#000000;
     font-size: 20px;
     line-height: 1.6;
@@ -139,8 +139,8 @@ header .main-header{
 
 
 .room-container .room-left .room-image1 
-.fig-caption1,
-.room-image2 .fig-caption2
+.para-image1,
+.room-image2 .para-image2
 
 {
 
@@ -153,8 +153,8 @@ font-size: 15px;
 
 }
 
-.room-container .room-right .room-image3 .fig-caption5,
- .room-image4 .fig-caption6{
+.room-container .room-right .room-image3 .para-image5,
+ .room-image4 .para-image6{
 
     font-weight: bold;
 font-family: 'Roboto' ,sans-serif;
@@ -173,6 +173,7 @@ text-decoration:dotted;
 display: flex;
 justify-content:flex-end;
 padding-right: 10px;
+font-family: 'Roboto' ,sans-serif;
 
 
 }
@@ -215,7 +216,9 @@ footer{
         /* Media Quaries for mobile*/
 @media(max-width:600px){
 
-    .room-container .room-right .room-image3, .room-container .room-right .room-image4,
+    .room-container .room-right .room-image3, 
+    .room-container .room-right .room-image4,
+    
     nav.main-nav
     {
     
@@ -262,17 +265,18 @@ footer{
        
     }  
 
-    .room-container .room-left .room-image3 .fig-caption3 ,
-    .room-left .room-image4 .fig-caption4{
+    .room-container .room-left .room-image3 .para-image3 
+    .room-left .room-image4 .para-image4 {
 
         font-weight: bold;
         font-family: 'Roboto' ,sans-serif;
         font-size: 15px;
-        
-        
-        
-
+    
     }
+
+
+
+
     
     .mobile-menu-items{
     
@@ -332,6 +336,7 @@ footer{
         text-decoration: none;
         display: flex;
         justify-content: center;
+        font-family: 'Roboto' ,sans-serif;
         
     }
 
