@@ -24,22 +24,26 @@
                 <ul>
             
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html"
+                        aria-label="Home-button lnik to our first page">Home</a>
                     </li>
                             
                     <li>
-                        <a href="hotel-rooms.html">Rooms</a>
+                        <a href="hotel-rooms.html"
+                        aria-label="rooms a buton to our hotel rooms page">Rooms</a>
             
                     </li>
             
                     <li>
                         <a href="#"><img src="/pictures/A.png" alt="Logo"
-                            width="70"></a>
+                            width="70"
+                            aria-label="hotel logo"></a>
             
                     </li>
                     
                     <li>
-                        <a href="contacts.html">Contacts</a>
+                        <a href="contacts.html"
+                        aria-label="Conatcs link to our contacts page">Contacts</a>
                     </li>
             
                  </ul>
@@ -49,7 +53,7 @@
             
  <nav class="mobile-nav" >
 
-    <a href="#">
+    <a href="#" aria-label="Hotel-logo">
 
         <img src="/pictures/A.png" alt="" width="70">
 
@@ -58,7 +62,7 @@
 
     
 
-    <a href="#">
+    <a href="#" aria-label="Menu-button">
 
         <img class="menu-button"  src="/pictures/Menu-button.png" alt="">
 
@@ -75,18 +79,21 @@
     <ul>
 
         <li>
-            <a href="index.html">Home</a>
+            <a href="index.html"
+            aria-label="home button a link to our first page">Home</a>
         </li>
                 
         <li>
-            <a href="hotel-rooms.html">Rooms</a>
+            <a href="hotel-rooms.html"
+            aria-label="room-button a link to our hotel rooms page">Rooms</a>
 
         </li>
 
         
         
         <li>
-            <a href="contacts.html">Contacts</a>
+            <a href="contacts.html"
+            aria-label="contacts-button link to our contacts pages">Contacts</a>
         </li>
 
      </ul>
@@ -99,9 +106,11 @@
 
 <Section class="room-container">
 
+    
+
+    <div class="room-left">
+
     <H2 class="room-heading">A few of our rooms:</H2>
-
-
 
 <p class="room-subheading">
 
@@ -113,33 +122,70 @@
 </p>
 
 
-<div class="room-left">
+
 
 
 
 
     <div class="room-image1">
 
+       
         <img src=
-        "/pictures/Room-3.jpg"
-         alt="Singel bed room"
+        "/pictures/Room-1.jpg"
+         alt="standard room"
          title="Singel bed room"
-         width="350" >
-        
+         width="350" > 
+
+         <figcaption class="fig-caption1">standard room: price 1580 kr/ night</figcaption>
+     
     
     </div>
+    
     
     <div class="room-image2">
         
-        <img src="/pictures/Room-1.jpg" 
-        alt="Double bed room"
-        title="Double bed room"
+        <img src="/pictures/Room-2.jpg" 
+        alt="standard doubleroom"
+        title="standard doubleroom"
         width="350"
         
         >
-       
+    <figcaption class="fig-caption2"> standard Double room  2450 kr/night</figcaption>
+   
+   
     
     </div>
+
+
+    <div class="room-image3">
+
+    
+
+        <img src="/pictures/room-3.jpg" 
+        alt="Moderate double-room"
+        title="Moderate double-room"
+        width="350">
+
+        <figcaption class="fig-caption3">Moderate double room: 3900 kr /night</figcaption>
+
+    
+     </div>
+    
+    <div class="room-image4">
+    
+  
+        <img src="/pictures/Room-4.jpg" 
+        alt="Luxyry suite"
+        title=" Luxury suite"
+        width="350" >
+        <figcaption class="fig-caption4">Luxury suite: 7000 kr /night</figcaption>
+
+    
+    
+    </div>
+    
+    </div>
+    
 
 
     
@@ -153,35 +199,25 @@
 
 
 
-    <img src="/pictures/room-4.jpg" 
-    alt="large-double-bed-room"
-    title="large-double-bed-room"
-    width=" 350">
-
+    <img src="/pictures/room-3.jpg" 
+    alt="Moderate double-room"
+    title="Moderate double-room"
+    width="350">
+    <figcaption class="fig-caption5">Moderate double room: 3900 kr /night</figcaption>
 
  </div>
 
 <div class="room-image4">
 
-    <img src="/pictures/Room-2.jpg" 
+    <img src="/pictures/Room-4.jpg" 
     alt="Luxyry suite"
     title=" Luxury suite"
-    width="350" >
-
-
-
+    width="350" 
+    height="243">
+    <figcaption class="fig-caption6">Luxury suite: 7000 kr /night</figcaption>
 </div>
 
-
-
-
-
 </div>
-
-
-
-
-
 
 
 </Section>
@@ -220,7 +256,7 @@
             
 
       
-
+<a href="#top" class="back-to-top">Back to top of the page</a>
 
         <footer> copyright &copy; 
             <script>document.write(new Date().getFullYear());</script>, Ash's hotel  

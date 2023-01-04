@@ -1,6 +1,8 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Roboto:wght@100;300;500;700&display=swap');
 
+
+
 body{
 
     margin: 0;
@@ -8,6 +10,7 @@ body{
     position: relative;
     padding-bottom: 50px;
     min-height: 100vh;
+   
     
 }
 
@@ -37,7 +40,7 @@ header .main-header{
  
  
      padding-top: 5px;
-    
+  
  }
  
  nav.main-nav ul{
@@ -51,6 +54,7 @@ header .main-header{
      height: 40px;
      border-radius: 8px;
      margin-bottom: 0;
+    
  }
  
  nav.main-nav ul li a{
@@ -64,7 +68,7 @@ header .main-header{
 
 }
 
-.hero-container{
+.room-container{
 
     display: flex;
     align-items: center;
@@ -80,7 +84,7 @@ header .main-header{
  .room-container h2.room-heading{
 
  
-    font-size: 24;
+    font-size: 24px;
     color:#000000;
     margin-bottom: 0;
     
@@ -95,31 +99,86 @@ header .main-header{
 
 .room-container .room-left .room-image1{
 
-    padding-top: 20px;
+    padding-top: 30px;
+  
+    
    
 }
 
 
-.room-container .room-left .room-image2{
+.room-container .room-left .room-image2,
+.room-container .room-left .room-image3
+{
 
-    padding-top:20px;
+    padding-top:60px;
    
+}
+
+.room-container .room-left .room-image4{
+
+    padding-top: 60px;
+    padding-bottom:60px;
+}
+
+
+
+.room-container .room-right .room-image3{
+
+  
+   padding-top: 190px;
+   padding-right: 200px;
+
+}
+
+.room-container .room-right .room-image4{
+
+  padding-top: 60px;
+ 
+    
+ }
+
+
+.room-container .room-left .room-image1 
+.fig-caption1,
+.room-image2 .fig-caption2
+
+{
+
+font-weight: bold;
+font-family: 'Roboto' ,sans-serif;
+font-size: 15px;
+
+
+
+
+}
+
+.room-container .room-right .room-image3 .fig-caption5,
+ .room-image4 .fig-caption6{
+
+    font-weight: bold;
+font-family: 'Roboto' ,sans-serif;
+font-size: 15px;
+
+
 }
 
 
 
 
 
+.back-to-top{
+color:#000000;
+text-decoration:dotted;
+display: flex;
+justify-content:flex-end;
+padding-right: 10px;
 
 
+}
 
 
-
-
-
-
-
-    footer{
+footer{
 
         background-color:#D9CDA9;
         font-family: 'Roboto' , sans-serif;
@@ -131,13 +190,21 @@ header .main-header{
         bottom: 0;
         width: 100%;
         }
+
+
+
+
+
         
-        @media(min-width:604px){
+        
+        @media(min-width:601px){
 
 
            
             .mobile-nav,
-            .mobile-menu-items
+            .mobile-menu-items,  
+            .room-container .room-left .room-image3,
+            .room-container .room-left .room-image4 
             
             
             {
@@ -148,7 +215,7 @@ header .main-header{
         /* Media Quaries for mobile*/
 @media(max-width:600px){
 
-    .hero-container .hero-right .hero-image,
+    .room-container .room-right .room-image3, .room-container .room-right .room-image4,
     nav.main-nav
     {
     
@@ -163,12 +230,13 @@ header .main-header{
     .mobile-nav{
     
         background: #D9CDA9;
-        position: fixed;
+        position:absolute;
         left:0 ;
         right: 0;
-        display: flex;
-        justify-content: space-between;
-        padding: 16px 32px;
+        top: 0;
+        display:flex;
+        justify-content:space-between;
+        padding: 16px 18px;
         z-index: 400;
        
         
@@ -181,14 +249,30 @@ header .main-header{
         height: 50px;
     }
     
-    .hero-container .phero-subheading{
+    .room-container .proom-subheading{
         font-size: 16px;
+        
     }
+
+
     
-    .hero-container .hero-left{
-    padding-top: 90px;
+    .room-container .room-left{
+        margin-left: 9px;
+        padding-top: 90px;
        
     }  
+
+    .room-container .room-left .room-image3 .fig-caption3 ,
+    .room-left .room-image4 .fig-caption4{
+
+        font-weight: bold;
+        font-family: 'Roboto' ,sans-serif;
+        font-size: 15px;
+        
+        
+        
+
+    }
     
     .mobile-menu-items{
     
@@ -240,6 +324,17 @@ header .main-header{
         text-transform: uppercase;
     }
     
+
+    .back-to-top{
+
+
+        color: #000000;
+        text-decoration: none;
+        display: flex;
+        justify-content: center;
+        
+    }
+
     }
 
 

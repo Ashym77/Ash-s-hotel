@@ -31,7 +31,7 @@ header .main-header{
     
    font-family: 'Roboto', sans-serif;
     max-width: 1000px;
-    margin: o auto;
+    margin: 0 auto;
 }
 
 
@@ -84,7 +84,7 @@ nav.main-nav ul li a{
 .hero-container h2.hero-heading{
 
 
-    font-size: 24;
+    font-size: 24px;
     color:#000000;
     margin-bottom: 0;
     
@@ -104,10 +104,22 @@ nav.main-nav ul li a{
 }
 
 .hero-container .hero-left .hero-media{
-    padding-bottom: 10;
+    padding-bottom: 10px;
 
 }
 
+
+.back-to-top{
+
+
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content:flex-end;
+   
+    padding-right: 10px;
+    
+}
 
 footer{
 
@@ -132,7 +144,7 @@ width: 100%;
 /* Media quaries for desktop*/
 
 
-@media(min-width:604px){
+@media(min-width:601px){
 
 
     .hero-container .hero-left .hero-image1,
@@ -151,6 +163,7 @@ width: 100%;
 @media(max-width:600px){
 
 .hero-container .hero-right .hero-image,
+.hero-container .hero-right .hero-image2,
 nav.main-nav
 {
 
@@ -165,12 +178,13 @@ nav.main-nav
 .mobile-nav{
 
     background: #D9CDA9;
-    position: fixed;
+    position: absolute;
     left:0 ;
     right: 0;
+    
     display: flex;
     justify-content: space-between;
-    padding: 16px 32px;
+    padding: 16px 18px;
     z-index: 400;
    
     
@@ -188,9 +202,16 @@ nav.main-nav
 }
 
 .hero-container .hero-left{
+    margin-left:17px;
 padding-top: 90px;
    
 }  
+
+.hero-container .hero-left .hero-image1{
+
+    padding-bottom: 30px;
+    padding-top: 10px;
+}
 
 .mobile-menu-items{
 
@@ -238,8 +259,25 @@ transform: translateY(0);
     color: #000000;
     text-decoration: none;
     font-size: 16px;
-    font-size: bold;
+    font-weight: bold;
     text-transform: uppercase;
 }
 
+
+.back-to-top{
+
+
+    color: #000000;
+    text-decoration: none;
+    display: flex;
+    justify-content:center;
+    margin-right: 10px;
 }
+
+
+
+
+
+}
+
+
