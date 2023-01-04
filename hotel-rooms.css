@@ -32,7 +32,7 @@ header .main-header{
     
     font-family: 'Roboto', sans-serif;
      max-width: 1000px;
-     margin: o auto;
+     margin: 0 auto;
  }
  
  
@@ -74,8 +74,7 @@ header .main-header{
     align-items: center;
     justify-content: space-around;
     padding:0 32px ;
-    
-    height: calc(100vh-139px);
+     height:100;
 }
 
  
@@ -187,7 +186,7 @@ footer{
         color: #000000;
         font-size: 20px;
         padding: 10px;
-        position: absolute;
+        position:fixed;
         bottom: 0;
         width: 100%;
         }
@@ -218,7 +217,7 @@ footer{
 
     .room-container .room-right .room-image3, 
     .room-container .room-right .room-image4,
-    
+
     nav.main-nav
     {
     
@@ -254,7 +253,7 @@ footer{
     
     .room-container .proom-subheading{
         font-size: 16px;
-        
+        font-family: 'Roboto' ,sans-serif;
     }
 
 
@@ -265,7 +264,7 @@ footer{
        
     }  
 
-    .room-container .room-left .room-image3 .para-image3 
+    .room-container .room-left .room-image3 .para-image3 ,
     .room-left .room-image4 .para-image4 {
 
         font-weight: bold;
@@ -324,7 +323,7 @@ footer{
         color: #000000;
         text-decoration: none;
         font-size: 16px;
-        font-size: bold;
+        font-weight: bold;
         text-transform: uppercase;
     }
     
