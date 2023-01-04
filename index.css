@@ -100,14 +100,21 @@ nav.main-nav ul li a{
 
 .hero-container .hero-right .hero-image{
 
-    padding-top: 30px;
+    padding-top: 50px;
+    padding-bottom: 50px;
    
+
 }
+
+
+.hero-container .hero
 
 .hero-container .hero-left .hero-media{
     padding-bottom: 10px;
 
 }
+
+
 
 
 .back-to-top{
