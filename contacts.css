@@ -66,6 +66,50 @@ nav.main-nav ul li a{
 }
 
 
+
+.contacts-container{
+
+    display: flex;
+    align-items: center;
+    
+    justify-content: space-around;
+    padding:0 32px ;
+    height:100%;
+}
+
+
+
+.contacts-container h2.contacts-heading{
+
+    font-family: 'Roboto' ,sans-serif;
+    
+    font-size: 24px;
+    color:#000000;
+    margin-bottom: 0;
+    
+}
+
+.contacs-container p.contacs-subheading{
+    font-family: 'Roboto' ,sans-serif;
+    color:#000000;
+    font-size: 20px;
+    line-height: 1.6;
+}
+
+
+
+
+.contacts-container .contacts-right .contacts-image{
+
+    padding-top: 50px;
+    padding-bottom: 50px;
+   
+
+}
+
+
+
+
 .back-to-top{
 
 
@@ -77,6 +121,14 @@ nav.main-nav ul li a{
     padding-right: 10px;
     
 }
+
+.thank-you-message {
+    display: none;
+  }
+  
+  .thank-you-message.show {
+    display: block;
+  }
 
 
 
@@ -90,7 +142,7 @@ footer{
     color: #000000;
     font-size: 20px;
     padding: 10px;
-    position: fixed;
+    position:fixed;
     bottom: 0;
     width: 100%;
     }
@@ -123,7 +175,7 @@ footer{
     /* Media Quaries for mobile*/
     @media(max-width:600px){
     
-    .hero-container .hero-right .hero-image,
+    .contacts-container .contacts-right .contacts-image,
     nav.main-nav
     {
     
@@ -156,11 +208,11 @@ footer{
         height: 50px;
     }
     
-    .hero-container .phero-subheading{
+    .contacts-container .pcontacts-subheading{
         font-size: 16px;
     }
     
-    .hero-container .hero-left{
+    .contacts-container .contacts-left{
     padding-top: 90px;
        
     }  
@@ -218,7 +270,7 @@ footer{
 
     .back-to-top{
 
-
+        font-family: 'Roboto' ,sans-serif;
         color: #000000;
         text-decoration: none;
         display: flex;

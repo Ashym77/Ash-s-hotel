@@ -11,3 +11,17 @@ menuButton.addEventListener("click",()=>{
 }
 )
  
+
+
+
+const form = document.querySelector('form');
+
+const thankYouMessage = document.querySelector('.thank-you-message');
+
+form.addEventListener('submit', (e) => {
+  console.log("hello")
+  e.preventDefault();
+  setTimeout(() => form.submit(), 2000)
+  thankYouMessage.classList.add('show');
+  
+});
