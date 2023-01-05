@@ -1,3 +1,5 @@
+
+/* hambuger menu */
 const menuButton=document.querySelector
 (".menu-button");
 

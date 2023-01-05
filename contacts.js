@@ -1,3 +1,5 @@
+
+/* hambuger menu */
 const menuButton=document.querySelector
 (".menu-button");
 
@@ -13,15 +15,23 @@ menuButton.addEventListener("click",()=>{
  
 
 
+/*document.querySelector(".button").addEventListener("submit", function(event){
+    event.preventDefault()
+  })*/
 
-const form = document.querySelector('form');
+/* message change when button pressed*/
 
-const thankYouMessage = document.querySelector('.thank-you-message');
+const buttonEl = document.querySelector(".button")
 
-form.addEventListener('submit', (e) => {
-  console.log("hello")
-  e.preventDefault();
-  setTimeout(() => form.submit(), 2000)
-  thankYouMessage.classList.add('show');
-  
-});
+
+
+const formEl = document.querySelector(".contacts-form");
+
+function changeText(event) {
+    event.preventDefault()
+    formEl.innerHTML = 
+    "your booking have been confirmed!  "
+}
+buttonEl.addEventListener("click", changeText)
+
+   

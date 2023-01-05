@@ -11,7 +11,7 @@ background-color: #BF9649;
 position: relative;
 padding-bottom: 50px;
 min-height: 100vh;
-
+  font-family: 'Roboto', sans-serif;
 
 
 }
@@ -186,7 +186,7 @@ nav.main-nav
 .mobile-nav{
 
     background: #D9CDA9;
-    position: absolute;
+    position: fixed;
     left:0 ;
     right: 0;
     

@@ -5,11 +5,13 @@
 
 body{
 
+font-family: 'Roboto', sans-serif;
 margin: 0;
 background-color: #BF9649;
 position: relative;
 padding-bottom: 50px;
 min-height: 100vh;
+
 
 
 }
@@ -28,11 +30,11 @@ h1{
 
 header .main-header{
     
-   font-family: 'Roboto', sans-serif;
+  
     max-width: 1000px;
-    margin: o auto;
+    margin: 0 auto;
 }
-
+/* main nav */
 
 nav.main-nav{
 
@@ -67,6 +69,8 @@ nav.main-nav ul li a{
 
 
 
+/* container section*/
+
 .contacts-container{
 
     display: flex;
@@ -94,6 +98,7 @@ nav.main-nav ul li a{
     color:#000000;
     font-size: 20px;
     line-height: 1.6;
+    padding-bottom: 30px;
 }
 
 
@@ -107,6 +112,23 @@ nav.main-nav ul li a{
 
 }
 
+.field-set1{
+
+    border-style: solid;
+    border-color: #000000;
+    display: inline-block;
+    margin-top: 30px;
+    margin-left: 10px;
+    margin-bottom: 10px;
+   
+
+    
+    
+
+}
+
+
+
 
 
 
@@ -117,20 +139,53 @@ nav.main-nav ul li a{
     text-decoration: none;
     display: flex;
     justify-content:flex-end;
-   
+  align-items: center;
+  
     padding-right: 10px;
     
 }
 
-.thank-you-message {
-    display: none;
-  }
+/* contacs links section*/ 
+
+
+
+
+
+ .field-set2{
+
+
+border-style: solid;
+border-color: #000000;
+display: inline-block;
+margin-left: 80px;
+margin-top: 30px;
+margin-bottom: 30px;
+
+}
+
+
+
+.contacts-links ul li{
+
+  list-style-type: none;
+ 
   
-  .thank-you-message.show {
-    display: block;
-  }
+}
 
 
+
+ .contacts-links ul li a{
+
+
+
+    color: #000000;
+    text-decoration: none;
+   padding-right: 70px;
+    
+    
+   
+
+}
 
 
 
@@ -263,18 +318,54 @@ footer{
         color: #000000;
         text-decoration: none;
         font-size: 16px;
-        font-size: bold;
+        font-weight: bold;
         text-transform: uppercase;
     }
     
 
-    .back-to-top{
+   
 
-        font-family: 'Roboto' ,sans-serif;
-        color: #000000;
-        text-decoration: none;
-        display: flex;
-        justify-content:center;
-        margin-right: 10px;
+
+    .field-set1{
+
+        border-style: solid;
+        border-color: #000000;
+        display: inline-block;
+        margin-top: 30px;
+        margin-left: 10px;
+       
+    
+        
+        
+    
     }
+    
+
+    .field-set2{
+
+
+        border-style: solid;
+        border-color: #000000;
+        display: inline-block;
+        margin-left: 40px;
+        margin-top: 30px;
+        margin-bottom: 30px;
+        
+        }
+
+        .back-to-top{
+
+            font-family: 'Roboto' ,sans-serif;
+            color: #000000;
+            text-decoration: none;
+            display: flex;
+            justify-content:center;
+             margin-right: 10px;
+            
+        }
+
+
+
+
+
     }

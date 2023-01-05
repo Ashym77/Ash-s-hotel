@@ -10,6 +10,7 @@ body{
     position: relative;
     padding-bottom: 50px;
     min-height: 100vh;
+    font-family: 'Roboto', sans-serif;
    
     
 }
@@ -30,7 +31,7 @@ h1{
 
 header .main-header{
     
-    font-family: 'Roboto', sans-serif;
+   
      max-width: 1000px;
      margin: 0 auto;
  }
@@ -82,7 +83,7 @@ header .main-header{
 
  .room-container h2.room-heading{
 
-    font-family: 'Roboto' ,sans-serif;
+   
     font-size: 24px;
     color:#000000;
     margin-bottom: 0;
@@ -144,7 +145,7 @@ header .main-header{
 {
 
 font-weight: bold;
-font-family: 'Roboto' ,sans-serif;
+
 font-size: 15px;
 
 
@@ -156,7 +157,7 @@ font-size: 15px;
  .room-image4 .para-image6{
 
     font-weight: bold;
-font-family: 'Roboto' ,sans-serif;
+
 font-size: 15px;
 
 
@@ -172,7 +173,7 @@ text-decoration:dotted;
 display: flex;
 justify-content:flex-end;
 padding-right: 10px;
-font-family: 'Roboto' ,sans-serif;
+
 
 
 }
@@ -181,7 +182,7 @@ font-family: 'Roboto' ,sans-serif;
 footer{
 
         background-color:#D9CDA9;
-        font-family: 'Roboto' , sans-serif;
+       
         text-align: center;
         color: #000000;
         font-size: 20px;
@@ -232,7 +233,7 @@ footer{
     .mobile-nav{
     
         background: #D9CDA9;
-        position:absolute;
+        position:fixed;
         left:0 ;
         right: 0;
         top: 0;
@@ -253,7 +254,7 @@ footer{
     
     .room-container .proom-subheading{
         font-size: 16px;
-        font-family: 'Roboto' ,sans-serif;
+       
     }
 
 
@@ -268,7 +269,7 @@ footer{
     .room-left .room-image4 .para-image4 {
 
         font-weight: bold;
-        font-family: 'Roboto' ,sans-serif;
+      
         font-size: 15px;
     
     }
@@ -335,7 +336,8 @@ footer{
         text-decoration: none;
         display: flex;
         justify-content: center;
-        font-family: 'Roboto' ,sans-serif;
+       
+        align-items: flex-end;
         
     }
 
