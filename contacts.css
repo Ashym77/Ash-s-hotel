@@ -215,7 +215,7 @@ footer{
     @media(min-width:604px){
     
     
-        .hero-container .hero-left .hero-image1,
+        .contacts-container .contacts-left .hero-image1,
         .mobile-nav,
         .mobile-menu-items
         
@@ -226,6 +226,12 @@ footer{
     }
     
     
+
+
+
+
+
+
     
     /* Media Quaries for mobile*/
     @media(max-width:600px){

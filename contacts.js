@@ -30,7 +30,7 @@ const formEl = document.querySelector(".contacts-form");
 function changeText(event) {
     event.preventDefault()
     formEl.innerHTML = 
-    "your booking have been confirmed!  "
+    " <br> <br> <br> your booking have been confirmed!  "
 }
 buttonEl.addEventListener("click", changeText)
 
