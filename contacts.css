@@ -68,6 +68,12 @@ nav.main-nav ul li a {
     text-transform: uppercase;
     font-size: 19px;
 
+
+}
+
+nav.main-nav ul li a:hover {
+
+    color: #526CE3
 }
 
 
@@ -97,7 +103,7 @@ nav.main-nav ul li a {
 
 }
 
-.contacs-container p.contacs-subheading {
+.contacs-subheading {
     font-family: 'Roboto', sans-serif;
     color: #000000;
     font-size: 20px;
@@ -203,6 +209,7 @@ p.bookin-confirmation {
 
 
 
+
 }
 
 .reload-button {
@@ -212,19 +219,25 @@ p.bookin-confirmation {
     font-weight: bold;
     font-family: 'Roboto', sans-serif;
     width: 100px;
-    
+    color: #000000
 }
 
 /* contacs links section*/
 
 
 
+ion-icon {
 
+    font-size: 20px;
 
+}
 
+.facebook-logo {
 
+    color: #0e2aa9;
+    transition: color
+}
 
-.contacts-links ul li {}
 
 
 
@@ -238,6 +251,19 @@ p.bookin-confirmation {
 
 
 }
+
+.contacts-links ul li a:hover {
+
+
+    color: pink;
+
+
+
+
+
+
+}
+
 
 
 
@@ -253,7 +279,6 @@ footer {
     bottom: 0;
     width: 100%;
 }
-
 
 
 
@@ -316,12 +341,11 @@ footer {
 
 
 
-
     #myBtn {
         display: none;
         position: fixed;
         bottom: 50px;
-        right: 15px;
+        right: 80px;
         z-index: 99;
         border: none;
         outline: none;
@@ -336,6 +360,15 @@ footer {
 
     }
 
+    .reload-button {
+
+        border-color: #000000;
+        font-weight: bold;
+        font-family: 'Roboto', sans-serif;
+        width: 100px;
+        margin-left: 170px;
+
+    }
 
 }
 
@@ -441,7 +474,13 @@ footer {
     }
 
 
-    .contacts-links {}
+    .mobile-menu-items ul li a:hover {
+
+
+        color: #526CE3;
+    }
+
+
 
     .field-set1 {
 

@@ -216,7 +216,7 @@ footer {
 }
 
 
-@media screen and (min-width: 762px) and (max-width: 1028px) {
+@media screen and (min-width: 762px) and (max-width: 1024px) {
 
 
 
@@ -268,37 +268,24 @@ footer {
 
 
 
-    .myBtn {
+    
+    #myBtn {
         display: none;
-
         position: fixed;
-
-        bottom: 60px;
-
-        right: 30px;
-
+        bottom: 50px;
+        right: 100pxpx;
         z-index: 99;
-
-        margin-bottom: 30px;
-
-        padding-left: 100px;
-
         border: none;
-
         outline: none;
-
-        background-color: #5e420d;
-
+        background-color: #5e420ded;
         color: white;
-
         cursor: pointer;
-
         padding: 15px;
-
         border-radius: 10px;
-
         font-size: 18px;
-
+    
+    
+    
     }
 
 
