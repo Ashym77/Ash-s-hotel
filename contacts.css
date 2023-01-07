@@ -455,6 +455,7 @@ footer {
         list-style: none;
         text-align: center;
         padding: 0;
+     
     }
 
     .mobile-menu-items ul li {
@@ -471,6 +472,7 @@ footer {
         font-size: 16px;
         font-weight: bold;
         text-transform: uppercase;
+        
     }
 
 
@@ -480,16 +482,20 @@ footer {
         color: #526CE3;
     }
 
+    .contacts-links{
 
+        width: -100o;
+     
+    }
 
     .field-set1 {
-
+      
         border-style: solid;
         border-color: #000000;
         display: inline-block;
         margin-top: 30px;
         margin-left: 10px;
-        ;
+        
 
 
 
@@ -510,8 +516,7 @@ footer {
 
     }
 
-
-
+    
 
 
 
