@@ -191,6 +191,21 @@ p.bookin-confirmation {
 }
 
 
+
+
+.button {
+
+    margin-left: 170px;
+    border-color: #000000;
+    font-weight: bold;
+    width: 70px;
+    cursor: pointer;
+    font-family: 'Roboto', sans-serif;
+
+
+
+}
+
 /* contacs links section*/
 
 
@@ -292,11 +307,11 @@ footer {
     .contacts-image {
 
         margin-right: 100px;
-        
+
     }
 
 
-    
+
 
     #myBtn {
         display: none;
