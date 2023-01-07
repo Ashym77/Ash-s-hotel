@@ -157,7 +157,6 @@ p.bookin-confirmation {
     border-style: solid;
     border-color: #000000;
     display: inline-block;
-    margin-left: 80px;
     margin-top: 30px;
     margin-bottom: 30px;
 
@@ -217,7 +216,7 @@ p.bookin-confirmation {
 
 .contacts-links ul li {
 
-    list-style-type: none;
+   
 
 
 }
