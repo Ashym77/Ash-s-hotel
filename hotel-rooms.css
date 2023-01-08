@@ -283,8 +283,9 @@ footer {
         display: none;
         position: fixed;
         bottom: 50px;
-        right: 100pxpx;
+        right: 50px;
         z-index: 99;
+        
         border: none;
         outline: none;
         background-color: #5e420ded;
