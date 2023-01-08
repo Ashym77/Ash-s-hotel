@@ -124,7 +124,7 @@ nav.main-nav ul li a:hover {
 .room-container .room-left .room-image4 {
 
     padding-top: 60px;
-    padding-bottom: 60px;
+    padding-bottom: 70px;
 }
 
 
@@ -132,14 +132,14 @@ nav.main-nav ul li a:hover {
 .room-container .room-right .room-image3 {
 
 
-    padding-top: 190px;
-    padding-right: 200px;
+    padding-top: 255px;
+    padding-bottom: 60px;
 
 }
 
 .room-container .room-right .room-image4 {
 
-    padding-top: 60px;
+padding-bottom: 50px;
 
 
 }
