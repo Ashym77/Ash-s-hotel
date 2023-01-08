@@ -128,15 +128,21 @@
                         <fieldset class="field-set1">
                             <legend class="contacs-legend">Bookings information</legend>
 
-                            <label for="name">Name</label>
+                            <label for="name">Name:</label>
                             <br>
                             <input type="text" name="name" id="name" placeholder="Enter your name here" required>
                             <br>
                             <br>
 
-                            <label for="email">Email</label>
+                            <label for="email">Email:</label>
                             <br>
                             <input type="email" name="email" id="email" placeholder="Enter your email" required>
+                            <br>
+                            <br>
+                            <label for="phone">Tel:</label>
+                            <br>
+                            <input type="tel" id="phone" name="phone" pattern="[0-9]{3}-[0-9]{2}-[0-9]{3}"
+                            placeholder="Enter your phone nr">
                             <br>
                             <br>
                             <label for="room-choice">Select desireble room</label>
@@ -148,13 +154,13 @@
                                 <option value="room-choice">Moderate double-room</option>
                                 <option value="room-choice">Luxyry suite</option>
                             </select>
-
+                            
                             <br>
                             <br>
                             <label for="Message">Enter your message here</label>
                             <br>
                             <textarea name="Message" id="Message" cols="30" rows="10"
-                                placeholder="Skriv ditt meddelande"></textarea>
+                                placeholder="Special request"></textarea>
                             <br>
                             <br>
 
