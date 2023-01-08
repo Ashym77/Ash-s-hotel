@@ -67,6 +67,14 @@ nav.main-nav ul li a {
 }
 
 
+nav.main-nav ul li a:hover {
+
+    color: #526CE3
+}
+
+
+
+
 
 .hero-container {
 

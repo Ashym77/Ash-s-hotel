@@ -69,6 +69,14 @@ nav.main-nav ul li a {
 
 }
 
+
+nav.main-nav ul li a:hover {
+
+    color: #526CE3
+}
+
+
+
 .room-container {
 
     display: flex;
@@ -213,7 +221,9 @@ footer {
 .myBtn:hover {
     background-color: #555;
 
+
 }
+
 
 
 @media screen and (min-width: 762px) and (max-width: 1024px) {
