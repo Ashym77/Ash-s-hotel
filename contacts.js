@@ -1,18 +1,14 @@
-
 /* hambuger menu */
-let menuButtonEl=document.querySelector
-(".menu-button");
+let menuButtonEl = document.querySelector(".menu-button");
 
-let mobileMenuItems=document.querySelector
-(".dropdown-menu-items")
+let mobileMenuItems = document.querySelector(".mobile-menu-items")
 
 
-    menuButtonEl.addEventListener("click",()=>{
+menuButtonEl.addEventListener("click", () => {
 
-    mobileMenuItems.classList.toggle("active")
-}
-)
- 
+  mobileMenuItems.classList.toggle("active")
+})
+
 
 
 /*document.querySelector(".button").addEventListener("submit", function(event){
@@ -28,21 +24,23 @@ const buttonEl = document.querySelector(".button")
 const formEl = document.querySelector(".contacts-form");
 
 function changeText(event) {
-    event.preventDefault()
-    formEl.innerHTML = 
+  event.preventDefault()
+  formEl.innerHTML =
     " <br> <br> <br>  your booking have been confirmed! <br> <br> <br>  "
 }
 buttonEl.addEventListener("click", changeText)
 
-   
+
 // Get the button:
 let mybutton = document.getElementById("myBtn");
 
 // When the user scrolls down 20px from the top of the document, show the button
-window.onscroll = function() {scrollFunction()};
+window.onscroll = function () {
+  scrollFunction()
+};
 
 function scrollFunction() {
-  if (document.body.scrollTop > 10 || document.documentElement.scrollTop >10) {
+  if (document.body.scrollTop > 10 || document.documentElement.scrollTop > 10) {
     mybutton.style.display = "block";
   } else {
     mybutton.style.display = "none";
@@ -55,14 +53,14 @@ function topFunction() {
   document.documentElement.scrollTop = 0; // For Chrome, Firefox, IE and Opera
 }
 
-function refreshPage(){
+function refreshPage() {
 
-  if(confirm("Are you sure u want to refresh page"))
-  
+  if (confirm("Are you sure u want to refresh page"))
+
   {
-  
+
     location.reload();
-  
+
   }
 
 
